@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <div id="inputs-wrap">
+          <input id="name" class="form-inp" type="name" placeholder="name" />
+          <input id="email" class="form-inp" type="email" placeholder="email" />
+          <input
+            id="tel"
+            class="form-inp"
+            type="tel"
+            placeholder="phone number"
+          />
+          <input
+            id="img"
+            class="form-inp"
+            type="text"
+            placeholder="url image"
+          />
+        </div>
+
+        <div id="buttons-wrap">
+          <button id="btnSubmit" type="submit">submit</button>
+          <button type="reset">reset</button>
+        </div>
+      </form>
+
+      <ul></ul>
+
+      <div id="modal">
+        <label style="font-size: 20px" for="">name</label>
+        <input id="modalName" type="name" />
+        <label style="font-size: 20px" for="">email</label>
+        <input id="modalEmail" type="email" />
+        <label style="font-size: 20px" for="">phone</label>
+        <input id="modalTel" type="tel" />
+        <label style="font-size: 20px" for="">url</label>
+        <input id="modalPicture" type="text" />
+        <button id="modalSave">save</button>
+        <button id="close">close</button>
+      </div>
+    </div>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

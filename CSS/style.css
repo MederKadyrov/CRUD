@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+input {
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 20px;
+  transition: 0.3s;
+  outline: 0;
+  border: none;
+  background-color: rgba(229, 228, 227, 0.725);
+}
+button {
+  max-width: 200px;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  transition: 0.2s;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 98%;
+}
+ul li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 30%;
+  width: 100%;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-top: 6px;
+  background-color: rgba(128, 128, 128, 0.137);
+  font-size: 20px;
+  font-weight: 700;
+}
+ul img {
+  border-radius: 8px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  flex-wrap: wrap;
+}
+#modal {
+  display: none;
+  position: fixed;
+  top: 10%;
+  background-color: rgb(154, 211, 205);
+  width: 50vw;
+  text-align: center;
+  border-radius: 5px;
+}
+#modal input {
+  margin: 30px auto;
+}
+#inputs-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#form {
+  width: 100%;
+}
+
+.form-inp {
+  width: 40%;
+}
+
+input:focus {
+  background-color: aquamarine;
+}
+button:hover {
+  background-color: rgba(158, 190, 190, 0.751);
+}
